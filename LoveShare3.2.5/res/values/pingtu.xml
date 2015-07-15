@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="addImg">添加</string>
+   	<string name="deleteError">没有图片可以删除</string>
+    
+</resources>

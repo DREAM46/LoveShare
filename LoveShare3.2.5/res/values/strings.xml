@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     
+    <string name="cropImg">裁剪</string>
+    <string name="handwrite">涂鸦</string>
+    <string name="alpha">淡化</string>
+    <string name="enhance">增强</string>
+    <string name="effects">特效</string>
+    <string name="rotate">旋转</string>
+    <string name="word">文字</string>
+    <string name="handWriting">涂鸦</string>
+    <string name="broader">边框</string>
+    <string name="control">缩放</string>
+    
+    
+    
+    <string name="title_enchance">图片增强</string>
+  	<string name="title_effect">图片特效</string>
+    <string name="title_alpha">图片淡化</string>
+    <string name="title_broader">图片边框</string>
+    <string name="title_processImg">图片特效</string>
+    
+    <string name="toast_alppic_success">淡化设置成功</string>
+    
+    <string name="roundConcer">圆角</string>
+   	<string name="oldremeber">怀旧</string>
+	<string name="sharpen">锐化</string>
+	<string name="beam">光照</string>
+	<string name="sketch">素描</string>
+	<string name="reflection">倒影</string>
+	<string name="negative">底片</string>
+    <string name="rilievo">浮雕</string>
+    <string name="blurImage">模糊</string>
+    
+	
+    <string name="save">保存</string>
+    <string name="saveSuffessed">保存成功</string>
+    <string name="saveFailed">保存失败</string>
+    <string name="saveAsSuffessed">另保存成功</string>
+    <string name="saveAsFailed">另保存失败</string>
+    <string name="share">分享</string>
+    
+    <string name="running_face_detection">请稍等</string>
+    <string name="multiface_crop_help">&quot;轻点一张脸开始裁剪。&quot;</string>
+    <string name="cancel">取消</string>
+    <string name="crop">裁剪</string>
+
+    <string name="clearError">你还没有进行涂鸦</string>
+    
+    <string name="saturation">饱和度</string>
+	<string name="contrast">色相</string>
+	<string name="lightness">亮度</string>
+	
+	<string name="handWriting1">图片涂鸦</string>
+	<string name="selectColor">选择颜色</string>
+	<string name="selectStrokeWidth">选择粗细</string>
+	<string name="ok">确定</string>
+    <string name="clear">清屏</string>
+    <string name="input">可输入字数：140</string>
+    <string name="close">关闭</string>
+    <string name="send">发布</string>
+    
+    
+    <string name="border_color">颜色</string>
+    <string name="border_simple">简单</string>
+    <string name="border_beautiful">炫彩</string>
+    
+    <string name="btn_designed">既定</string>
+    <string name="btn_customed">自定义</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="btn_start">开始</string>
+    <string name="inputHint">角度</string>
+    
+    <string name="paintcolor">颜色</string>
+    <string name="strokeWidth">粗细</string>
+    
+    <string name="turnleft">左转</string>
+    <string name="turnright">右转</string>
+    <string name="reverse">反转</string>
+    <string name="title_processImg_activity">图片美化</string>
+    
+</resources>

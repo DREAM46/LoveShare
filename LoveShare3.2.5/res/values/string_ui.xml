@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="imgPath">/showPictures</string>
+    <string name="lable">爱分享</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_camera">拍照</string>
+    <string name="text_edit">美化</string>
+    <string name="text_puzzle">拼图</string>
+    <string name="puzzle">拼图</string>
+    <string name="exit">退出</string>
+
+    <!-- PicGridActivity -->
+    <string name="openImgGridError">您的图库中已没有图片</string>
+    <string name="onceAgainExit">再按一次返回键就能离开“爱分享”</string>
+    <string name="recommendTo">推荐好友</string>
+    <string name="title_help">帮助</string>
+    <string name="title_rotate">旋转</string>
+    <string name="welcomeToStart">开始爱分享之旅</string>
+    
+    <string name="setting_basic">基本设置</string>
+    <string name="setting_title">设置</string>
+    <string name="setting_theme">主题设置</string>
+    <string name="setting_other">其他</string>
+    <string name="linear_setting_mainbackground">主界面背景</string>
+    <string name="linear_setting_theme">主题</string> 
+    <string name="linear_setting_path">保存</string> 
+    <string name="check_settting_sounds">声音</string>
+    <string name="check_setting_vibration">振动</string>
+    <string name="linear_feedback">反馈</string>
+    <string name="linear_about">关于</string>
+    <string name="linear_navigation">功能导航</string>
+
+    <string name="text_loveshare">爱分享，分享属于你的每一时刻</string>
+    <string name="text_vision">V1.0.0 正式版</string>
+    <string name="text_contact">联系我们:loveshare_hwh@163.com</string>
+    
+    <string name="feedBack">发送</string>
+    <string name="hint_feekBack">请说说你对爱分享的建议吧~~~</string>
+    <string name="contact_feekBack">请留下您的邮箱吧~~~</string>
+    
+    <string name="isSounds">您已经开启声音</string>
+    <string name="notSounds">您已经关闭声音</string>
+    <string name="isVibration">您已经开启振动</string>
+    <string name="notVibration">您已经关闭震动</string>
+    
+    <string name="changed">您已经成功更换主题</string>
+    
+    <string name="strategy">帮助</string>
+    <string name="strategy_camera">拍照</string>
+    <string name="strategy_picDb">美化</string>
+    <string name="strategy_share">分享</string>
+    <string name="strategy_setting">设置</string>
+    <string name="strategy_recommand">推荐</string>
+    
+    <string name="help_camera">拍照帮助</string>
+    <string name="help_picDb">美化帮助</string>
+    <string name="help_share">分享帮助</string>
+    <string name="help_setting">设置帮助</string>
+    <string name="help_recommand">推荐帮助</string>
+               
+    <string name="help_camera1">拍照是调用手机自带的摄像头去进行拍摄，拍摄完成后照片会自动保存到sd卡showPictures文件夹中，拍摄后还会有快捷分享、快捷美化的选择</string>
+    <string name="help_picDb1">美化主要包括了增强、特效、涂鸦、边框、旋转等处理功能，其中特效分为圆角、怀旧、锐化、反转、光照、素描、倒影、底片、浮雕、模糊等既定的图片场景效果。
+和很多软件一样，当处理图片后未保存，软件会友好地提示用户保存图片的。于此同时，用户可以在处理图片后立即分享图片。</string>
+    <string name="help_share1"></string>
+    <string name="help_setting1"></string>
+    <string name="help_recommand1"></string>
+    
+      <string name="btn_select">选择</string>
+    <string name="btn_enter">进入</string>
+    <string name="btn_cancel">取消</string>
+    
+</resources>

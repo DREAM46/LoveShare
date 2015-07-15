@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b5555555"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dip"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:id="@+id/view_tv_path"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="1.5"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/view_btn_select"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:background="@drawable/acm_inputbox"
+            android:padding="5dp"
+            android:text="选择"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/view_btn_enter"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:background="@drawable/acm_inputbox"
+            android:padding="5dp"
+            android:text="进入"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/cancleButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1.5"
+            android:background="@drawable/acm_inputbox"
+            android:padding="5dp"
+            android:text="取消"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="menu_recommend">推荐</string>
+    <string name="ment_exit">退出</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_about">关于</string>
+    
+</resources>

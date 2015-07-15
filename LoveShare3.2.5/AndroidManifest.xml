@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.loveshare.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/lable"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.loveshare.UI.StartActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.loveshare.UI.MainActivity"
+            android:label="@string/lable"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.loveshare.UI.ImgActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.imgProcessUI.ImgToneActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.imgProcessUI.ImgAlphaActicity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.imgProcessUI.ImgSketchActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.imgProcessUI.ImgEffectsActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.imgProcessUI.ImgEffectResultActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.puzzle.PuzzleActivity"
+            android:label="@string/lable"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.loveshare.imgProcessUI.ImgHandWritingActivity"
+            android:label="@string/lable"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.UI.RecommendActivity"
+            android:label="@string/lable"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.loveshare.setting.FileExplorerActivity"
+            android:label="@string/lable"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.loveshare.puzzle.PingPictures"
+            android:label="@string/lable"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.UI.ShareActivity"
+            android:label="@string/lable"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.sharesdk.framework.AuthorizeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.loveshare.share.SendActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.loveshare.UI.HelpActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.imgProcessUI.ImgHangWritingActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.imgProcessUI.ImgBroaderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.UI.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.imgProcessUI.ImgRotateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.loveshare.UI.SettingActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.loveshare.setting.AboutActivity"
+            android:label="@string/lable"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.loveshare.setting.FeedbackActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.loveshare.setting.ThemeActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.loveshare.help.StrategyActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.loveshare.help.HelpActivity1"
+            android:label="@string/lable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.loveshare.UI.CloudActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.loveshare.help.HelpActivity"
+            android:label="@string/lable"
+            android:screenOrientation="portrait" />
+        
+		<!--  微信分享回调  -->
+        <activity
+			android:name="com.loveshare.wxapi.WXEntryActivity"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:exported="true"
+			android:screenOrientation="portrait" />
+        
+		<!--  易信分享回调  -->
+        <activity
+			android:name="com.loveshare.yxapi.YXEntryActivity"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:exported="true"
+			android:screenOrientation="portrait" />
+        <activity
+			android:name="cn.sharesdk.framework.ShareSDKUIShell"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden|adjustResize" >
+			<!--Adapter 继承自
+			cn.sharesdk.framework. authorize.AuthorizeAdapter，
+			可以监听到页面的生命周期，也能获取页面的各种 UI 控件。
+			开发者可以通过继承 AuthorizeAdapter，重写其方法，
+			并获取各种 UI 来自定义这个页面的行为。
+			-->
+			</activity>
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.SEND" />
+    <uses-permission android:name="android.permission.SENDTO" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+</manifest>
